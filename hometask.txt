@@ -1,2 +1,16 @@
 ветка master: Создать ветку с человека (мастер) в сапогах (ветка сапоги) и шляпа (ветка шляпа) с хорошими пуговицами на кителе (ветка пуговицы)
 ветка hut: Создать ветку с человека (мастер) в сапогах (ветка сапоги) и шляпа (ветка шляпа).
+
+commit:
+1. git checkout master
+2. git merge origin/hat
+3. git merge boots_buttons
+4. git diff master origin/demo
+5. git remote add b2 https://github.com/Tehnorobot/git_2.git
+6. git push -u b2 master
+
+перенос hometask.txt в git:
+1. git clone https://github.com/Tehnorobot/git_2.git
+2. git add .
+3. git commit -m "new_file"
+4. git push
